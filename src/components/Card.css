@@ -17,3 +17,13 @@
 .flipped .card__grid--front {
   transform: rotateY(0);
 }
+
+.card__grid--back {
+  transition: all ease-in 0.2s;
+  transition-delay: 0.2s;
+}
+
+.flipped .card__grid--back {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
