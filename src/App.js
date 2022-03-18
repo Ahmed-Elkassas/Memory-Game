@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import { Card } from "./components/Card";
 
 const cardImages = [
   { src: "/img/helmet-1.png" },
@@ -29,6 +30,11 @@ function App() {
     <div className="App">
       <h1>Magic Match</h1>
       <button onClick={shuffleCards}>New Game</button>
+      <div className="card__grid">
+        {cards.map((card) => (
+          <Card key={card.id} card={card} />
+        ))}
+      </div>
     </div>
   );
 }
