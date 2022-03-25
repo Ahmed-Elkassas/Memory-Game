@@ -3,10 +3,9 @@
 
 Memory Game, also known as the Concentration card game or Matching Game, is a simple card game where you need to match pairs by turn over 2 cards at a time.
 
-## Authors
+## Acknowledgements
 
-- [@AhmedElkassas](https://github.com/Ahmed-Elkassas)
-
+ - [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 
 ## Installation
 
@@ -16,8 +15,6 @@ Install my-project with npm
   npm install Memory-Game
   cd Memory-Game
 ```
-    
-## Acknowledgements
+## Author
 
- - [React Hooks](https://reactjs.org/docs/hooks-intro.html)
-
+- [@AhmedElkassas](https://github.com/Ahmed-Elkassas)
